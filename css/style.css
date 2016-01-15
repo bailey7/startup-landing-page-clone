@@ -1,3 +1,5 @@
+body {font-family: 'Roboto', sans-serif}
+
 .top-navigation {background-color: #fff;}
 
 .top-navigation > .content {
@@ -7,7 +9,6 @@ height: 71px; margin: 0 auto;}
 .top-navigation .links {float: right;
 color: #838994;
 font-size: 16px;
-font-family: 'Roboto', sans-serif;
 margin-top: 25px;}
 
 .top-navigation .links li {
@@ -38,30 +39,45 @@ background-color: orange;
 display: inline-block;
 padding: 1em;
 border-radius: 1em;
-font-family: 'Roboto', sans-serif;
 font-size: 22px;
 }
 
 .introduction p {
-font-family: 'Roboto', sans-serif;
 font-size: 22px;
 padding-bottom: 20px;
 }
 
 .introduction h1 {
 padding-top: 150px;
-font-family: 'Roboto', sans-serif;
 font-size: 42px;
 }
 
 .cases {
-padding-top: 100px;
-font-family: 'Roboto', sans-serif;
+padding-top: 50px;
 font-size: 22px;
 text-align: center;
 }
 
-.cases .devices {
+.devices > li {
 display: inline-block;
 width: 33.3333%;
 }
+
+.devices {padding-left: 0em}
+
+.social .icons > li {display: inline-block;
+border-radius: 1em;
+    width: 2.5rem;
+    border: 1px solid #4c5058;
+    padding: 0.625rem 0;
+    text-align: center;}
+
+.social {text-align: center;
+margin-left: 200px;
+margin-right: 200px}
+
+.icons {padding-left: 0em;
+color: orange;}
+
+.social .icons {
+    }
