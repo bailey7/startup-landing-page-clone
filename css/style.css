@@ -1,7 +1,9 @@
 body {font-family: 'Roboto', sans-serif}
 
 .top-navigation {background-color: #fff;
-margin-top: 1em;}
+margin-top: 0em;
+position: fixed;
+width: 100%;}
 
 .top-navigation > .content {
 width: 95%;
