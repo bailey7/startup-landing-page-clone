@@ -1,4 +1,6 @@
-body {font-family: 'Roboto', sans-serif}
+body {
+font-family: 'Roboto', sans-serif;
+margin: 0;}
 
 .top-navigation {background-color: #fff;
 margin-top: 0em;
@@ -18,7 +20,8 @@ margin-top: 25px;}
 display: inline-block;
 margin-left: 25px;}
 
-.top-navigation .logo {margin-left: 25px;}
+.top-navigation .logo {margin-left: 25px;
+padding-top: 8px}
 
 .top-navigation .links .active {
 color: #4c5058;
