@@ -67,7 +67,7 @@ text-align: center;
 
 .devices > li {
 display: inline-block;
-width: 33.3333%;
+width: 20%;
 }
 
 .devices {padding-left: 0em}
