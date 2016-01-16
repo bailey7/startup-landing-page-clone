@@ -86,3 +86,22 @@ margin-right: 200px}
 .icons {padding-left: 0em;
 color: #D2691E;}
 
+@media (max-width: 400px){
+	.introduction p {font-size: 14px}
+	.introduction h1 {font-size: 32px}
+	.introduction {height: 400px}
+	.cases h2 {font-size: 24px}
+	.cases img {width: 80%; height: auto}
+	.cases {padding-top: 10px}
+	.cases {font-size: 10px}
+	.social {margin-left: 0; margin-right: 0}
+	.top-navigation ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;}
+	.top-navigation .links li {
+	margin: 2px;	
+	display:inline-block;
+	float: left;
+	margin-right: 1px;}
+	.top-navigation .links {font-size: 12px}
